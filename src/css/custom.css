@@ -23,7 +23,56 @@ h1 {
     border-color: rgba(201, 35, 41,1) !important;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active .btn-primary:visited, .btn-primary::after{
     background-color:rgba(145, 23, 27, 1) !important;
     border-color: rgba(201, 35, 41,1) !important;
 }
+
+.carousel-inner{
+    height: 100vh;
+}
+
+.carousel-item {
+    height: 100%;
+    width: auto;
+}
+
+.img-fluid-slide {
+    width: 100vw;
+    min-height: 100%;
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+}
+.discover{
+    padding: 10px;
+    
+}
+
+.carousel-caption-slider {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.circle-control-slide{
+    padding: 5px;
+    background-color:rgba(201, 35, 41,1) !important;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+
+}
+
+.carousel-control-prev-icon .carousel-control-next-icon {
+    opacity: 1;
+}
+
+#timeline{
+    height: 100vh;
+}
+
