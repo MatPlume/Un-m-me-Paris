@@ -23,7 +23,7 @@ h1 {
     border-color: rgba(201, 35, 41,1) !important;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active .btn-primary:visited, .btn-primary::after{
     background-color:rgba(145, 23, 27, 1) !important;
     border-color: rgba(201, 35, 41,1) !important;
 }
@@ -45,15 +45,14 @@ h1 {
     object-fit: cover;
 }
 .discover{
-    padding: 20px;
+    padding: 10px;
     
 }
 
 .carousel-caption-slider {
     position: absolute;
-    right: 15%;
     bottom: 20px;
-    left: 15%;
+    width: 100%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -76,3 +75,4 @@ h1 {
 #timeline{
     height: 100vh;
 }
+
