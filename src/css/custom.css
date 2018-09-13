@@ -136,7 +136,7 @@ h1 {
 
 .photo {
     width : 155% !important;
-    min-height: 100%;
+    
 }
 
 .container-fluid {
@@ -441,4 +441,18 @@ a.carousel-control-next, a.carousel-control-prev {
 
 .page-footer{
 background: #2c2c2d
+}
+
+#article-category { /* page articles/maeva */
+  margin-top: 12vh;
+}
+
+#contact-category {  /* page contact/maeva */
+  margin-top: 12vh;
+}
+
+.img-fluid {
+  object-fit: cover;
+  overflow: hidden;
+  min-height: 100%;
 }

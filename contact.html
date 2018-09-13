@@ -12,7 +12,7 @@
     <!-- My custom CSS -->
     <link rel="stylesheet" type="text/css" href="src/css/custom.css" >
 
-    <title>Un môme à Paris</title>
+    <title>Contact</title>
   </head>
 
   <body>
@@ -52,24 +52,25 @@
 
     </div>
 
-  </header>
-
-  <div class= "container">
-    <div class= "row">
-      <div class= " contact col-md-12 mt-5"> <!--contact-->
-        <div class="form-group">
-          <h2>Contactez-moi</h2>
-          <hr/>
-          <form class="mt-5" method="post" action="traitement.php">
+</header>
+<section id="contact-category">
+    <div class= "container">
+        <div class= "row">
+        <div class= " contact col-md-12 mt-5"> <!--contact-->
             <div class="form-group">
-              <label for="name"></label> <input for="name" class="form-control" type= "email" name="E-mail" id="email" placeholder="Enter email"/>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" id="message" rows="10" cols="20" placeholder="Message" ></textarea>
-            
-            <input class="btn btn-dark mt-4" type="submit" value="Send" />
-            </div>
-        </div> <!--fin contact-->
+            <h2>Contactez-moi</h2>
+            <hr/>
+            <form class="mt-5" method="post" action="traitement.php">
+                <div class="form-group">
+                <label for="name"></label> <input for="name" class="form-control" type= "email" name="E-mail" id="email" placeholder="Votre adresse E-mail"/>
+                </div>
+                <div class="form-group">
+                <textarea class="form-control" name="message" id="message" rows="10" cols="20" placeholder="Votre message ici" ></textarea>
+                
+                <input class="btn btn-dark mt-4" type="submit" value="Send" />
+                </div>
+            </div> <!--fin contact-->
+</section>
 
 
         </form>
