@@ -439,9 +439,7 @@ a.carousel-control-next, a.carousel-control-prev {
 
 /*timeline end*/
 
-.page-footer{
-background: #2c2c2d
-}
+
 
 #article-category { /* page articles/maeva */
   margin-top: 12vh;
@@ -456,3 +454,29 @@ background: #2c2c2d
   overflow: hidden;
   min-height: 100%;
 }
+
+
+/*Footer by Matthieu*/
+
+.page-footer{
+background: #2c2c2d
+color: whitesmoke;
+}
+
+hr{
+background-color:#63666b;
+}
+
+footer a {
+color: whitesmoke;
+}
+
+footer a:hover{
+  color: rgba(201, 35, 41, 1) 
+}
+
+.fab{
+  font-size: 20px;
+}
+
+/*Footer by Matthieu*/
