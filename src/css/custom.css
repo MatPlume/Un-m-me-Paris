@@ -439,6 +439,28 @@ a.carousel-control-next, a.carousel-control-prev {
 
 /*timeline end*/
 
+
+/*Footer by Matthieu*/
+
 .page-footer{
-background: #2c2c2d
+background: #373737;
+color: whitesmoke;
 }
+
+hr{
+background-color:#63666b;
+}
+
+footer a {
+color: whitesmoke;
+}
+
+footer a:hover{
+  color: rgba(201, 35, 41, 1) 
+}
+
+.fab{
+  font-size: 20px;
+}
+
+/*Footer by Matthieu*/
