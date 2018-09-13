@@ -72,7 +72,7 @@ h1 {
 .discover{
     padding: 8px;
     margin: 5px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     width: 250px;
     border-radius: 50px;
 }
@@ -101,7 +101,7 @@ h1 {
 
 .carousel-caption-slider {
     position: absolute !important;
-    bottom: 20px !important;
+    bottom: 40px !important;
     width: 100% !important;
     z-index: 10 !important;
     padding-top: 20px !important;
@@ -275,6 +275,15 @@ a.carousel-control-next, a.carousel-control-prev {
 /*Slideshow end*/
 
 /*timeline */
+
+/*custom-card*/
+.text-red {
+  color:rgba(145, 23, 27, 1) !important;
+
+}
+
+/**/
+
 #timeline{
     min-height: 100vh;
     background-image: url("../../assets/img/Images_paris/paris-2971589_1920.jpg");
@@ -293,6 +302,7 @@ a.carousel-control-next, a.carousel-control-prev {
     margin: 0 auto;
     padding-top: 5%;
     padding-bottom: 5%;
+    max-width: 1200px;
   }
   
   /* The actual timeline (the vertical ruler) */
