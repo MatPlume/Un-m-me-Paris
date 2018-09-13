@@ -271,8 +271,8 @@ a.carousel-control-next, a.carousel-control-prev {
   opacity: 1;
 }
 
-
 /*Slideshow end*/
+
 
 /*timeline */
 #timeline{
@@ -483,6 +483,16 @@ footer a:hover{
 
 
  
+/*Contact by Maeva*/
+
+.btn-dark{
+  border-radius: 50px;
+  width: 110px;
+}
+
+/*Contact by Maeva*/
+
+
 .img-fluid-article{ 
     width: 100%;
     min-height: 100%;
@@ -528,4 +538,4 @@ footer a:hover{
 #sous-article{
     margin-top: 60px;
 }
->>>>>>> 84d30037564595871e6e26413be98798791a43f1
+
