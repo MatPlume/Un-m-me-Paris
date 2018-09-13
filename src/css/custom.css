@@ -30,10 +30,46 @@ h1 {
  
 .img-fluid-article{ 
     width: 100%;
+    min-height: 100%;
+}
+ 
 
+.grande-box {
+ overflow: hidden;
+ width: 100%;
+ min-height: 100%;
+}
+
+.thumbnail{
+    padding: 5px;
+    width: 150px;
 }
 
 
+.titre-sous-article{
+    padding-top: 30px;
+}
 
 
+.form-group {
+    box-sizing: content-box;
+    width: 100%; 
+    padding: 10px;
 
+} 
+.col-md-12{
+    margin-bottom: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.espace{
+    padding: 30px;
+}
+
+.fab{
+    size: 5x;
+}
+#sous-article{
+    margin-top: 60px;
+}
