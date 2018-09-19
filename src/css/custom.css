@@ -127,12 +127,17 @@ h1 {
 
 
 
-.box {
+.box { /* -----------------------------------------------ARTICLES MAEVA---------------------------*/
  
     height: 350px !important;
     overflow: hidden !important;
     object-fit: cover;
+    
+    
+    
 }
+
+
 
 .photo {
     width : 155% !important;
@@ -151,7 +156,7 @@ h1 {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: default;
+    cursor: pointer;
     background: rgba(201, 35, 41);
   }
   
@@ -245,9 +250,18 @@ h1 {
     transform: translate3d(0,0,0);
   }
 
-.col-md-3 {
+.col-md-6, .col-lg-3, .col-sm-4, .col-xs-12 {
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 0px; /* ----------------------------------------------- FIN ARTICLES MAEVA---------------------------*/
+}
+
+.row-article {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 a:hover {
