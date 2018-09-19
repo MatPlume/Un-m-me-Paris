@@ -134,7 +134,10 @@ h1 {
     object-fit: cover;
     
     
+    
 }
+
+
 
 .photo {
     width : 155% !important;
@@ -153,7 +156,7 @@ h1 {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: default;
+    cursor: pointer;
     background: rgba(201, 35, 41);
   }
   
