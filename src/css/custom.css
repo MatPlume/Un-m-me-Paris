@@ -177,22 +177,11 @@ h1 {
 
 /*fin du slider*/
 
-<<<<<<< HEAD
 .box {
 
   height: 350px !important;
   overflow: hidden !important;
   object-fit: cover;
-=======
-.box { /* -----------------------------------------------ARTICLES MAEVA---------------------------*/
- 
-    height: 350px !important;
-    overflow: hidden !important;
-    object-fit: cover;
-    
-    
-    
->>>>>>> b61d654b43aa8eac8c93eee579831d6a8e765899
 }
 
 
@@ -208,17 +197,6 @@ h1 {
 
 
 .hovereffect {
-<<<<<<< HEAD
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-  background: rgba(201, 35, 41);
-}
-=======
     width: 100%;
     height: 100%;
     float: left;
@@ -269,7 +247,6 @@ h1 {
     padding: 0.5em 0;
     background-color: transparent;
   }
->>>>>>> b61d654b43aa8eac8c93eee579831d6a8e765899
 
 .hovereffect .overlay {
   width: 100%;
@@ -363,11 +340,11 @@ h1 {
   transform: translate3d(0, 0, 0);
 }
 
-<<<<<<< HEAD
 .col-md-3 {
   padding-left: 0px;
   padding-right: 0px;
-=======
+}
+
 .col-md-6, .col-lg-3, .col-sm-4, .col-xs-12 {
     padding-left: 0px;
     padding-right: 0px; /* ----------------------------------------------- FIN ARTICLES MAEVA---------------------------*/
@@ -380,7 +357,6 @@ h1 {
   flex-wrap: wrap;
   margin-right: 0px;
   margin-left: 0px;
->>>>>>> b61d654b43aa8eac8c93eee579831d6a8e765899
 }
 
 a:hover {
