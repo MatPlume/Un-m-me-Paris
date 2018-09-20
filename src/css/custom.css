@@ -639,7 +639,7 @@ footer a {
 }
 
 footer a:hover {
-  color: rgba(201, 35, 41, 1)
+  color: rgba(201, 35, 41, 1);
 }
 
 .fab {
@@ -728,27 +728,16 @@ a:focus {
     padding-left: 0px;
 }
 
-.fa-facebook-f{
+
+.smgrey{
   color: #343a40;
 }
 
-.fa-twitter{
-  color: #343a40;
-}
-.fa-instagram{
-  color: #343a40;
+
+.smgrey:hover{
+  color: rgba(201, 35, 41, 1);
 }
 
-/*.fa-facebook-f a:hover{
-  color: #343a40;
-
-}
-.fa-twitter a:hover{
-  color: #343a40;
-}
-.fa-instagram a:hover{
-  color: #343a40;
-}*/
 
 .container-fluid, sousArticle{
   margin-top: 60x;
