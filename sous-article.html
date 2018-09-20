@@ -57,78 +57,102 @@
     
       </header>
 
-    <section id="sous-article">
-        <div class="container-fluid">
+    <section >
+        <div class="container-fluid sousArticle">
 
             <div class="row no-gutters">
-                <div class="col-md-8">
+                <div class="col-lg-8 col-md-12 col-sm-12">
                     <!--1er bloc Photo + texte-->
                     <div class="grande-box">
                         <!--boite delimitant photo 1-->
                         <img src="./assets/img/Images_paris/arc-de-triomphe-de-letoile-1149976_1920.jpg" alt="arc de triomphe"
                             class="img-fluid-article">
+                            <div class="row no-gutters">
+                                <!--galerie photos-->
+                                <div class="col-lg-3 col-md-3 col-sm-2">
+                                    <img src="./assets/img/Images_paris/paris-2790052_1920.jpg" alt="Image 1" class="img-thumbnail" />
+                                </div>
+            
+                                <div class="col-lg-3 col-md-3 col-sm-2">
+                                    <img src="./assets/img/Images_paris/rue-paris-6.jpg" alt="Image 2" class="img-thumbnail" />
+                                </div>
+            
+                                <div class="col-lg-3 col-md-3 col-sm-2">
+                                    <img src="./assets/img/Images_paris/paris-2971589_1920.jpg" alt="Image 3" class="img-thumbnail" />
+                                </div>
+            
+                                <div class="col-lg-3 col-md-3 col-sm-2">
+                                    <img src="./assets/img/Images_paris/paris-253922_1920.jpg" alt="Image 3" class="img-thumbnail" />
+                                </div>
+                            </div>
                     </div><!-- fin box-->
                 </div>
-                <div class="col-md-4">
-                    <div class="espace">
-                        <h2 class="titre-sous-article">Arc de Triomphe</h2>
-                        <p> Horum adven tum praedocti speculationibus fidis rectores militum tessera data sollemni
-                            armatos omnes celeri eduxere procursu et agiliter praeterito Calycadni fluminis ponte,
-                            cuius undarum magnitudo murorum adluit turres, in speciem locavere pugnandi. neque tamen
-                            exiluit quisquam nec permissus est congredi. formidabatur enim flagrans vesania manus et
-                            superior numero et ruitura sine respectu salutis in ferrum.Horum adventum praedocti
-                            speculationibus fi</p>
+
+                <div class="comment-and-form col-lg-4 col-md-12 col-sm-12">
+                  <h2 class="titre-sous-article">Arc de Triomphe</h2>
+                    <p> Horum adven tum praedocti speculationibus fidis rectores militum tessera data sollemni
+                        armatos omnes celeri eduxere procursu et agiliter praeterito Calycadni fluminis ponte,
+                        cuius undarum magnitudo murorum adluit turres, in speciem locavere pugnandi. neque tamen
+                        exiluit quisquam nec permissus est congredi. formidabatur enim flagrans vesania manus et
+                        superior numero et ruitura sine respectu salutis in ferrum.Horum adventum praedocti
+                        speculationibus fohidzah.</p>
+
+                                <!-- Social buttons -->
+                  
+                  
+                    
 
 
-                        
+                          <div class="bloc-form">
 
 
 
-                        <div class="col formulaire">
+
+                              
+                                <div class="social">
+                                  <li class="list-inline-item">
+                                    <a target="blank" href="https://www.facebook.com/" class="btn-floating btn-sm mx-1">
+                                      <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                    <a target="blank" href="https://www.twitter.com/" class="btn-floating btn-sm mx-1">
+                                      <i class="fab fa-twitter"></i>
+                                    </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                   <a target="blank" href="https://www.instagram.com/" class="btn-floating btn-sm mx-1">
+                                      <i class="fab fa-instagram"></i>
+                                    </a>
+                                  </li>
+                                </div>
+                              
+
                             <form method="post" action="traitement.php">
-                                <div class="form-group ml-0">
+                                <div>
                                     <label for="email">Email</label><input type="text" class="form-control" name="email"
                                         id="email" />
                                 </div>
-                                <div class="form-group ml-0">
+                                <div>
                                     <label for="commentaire">Commentaire</label>
                                     <textarea name="commentaire" id="commentaire" class="form-control"></textarea>
                                 </div>
+                                <div class="btn submit bouton-droit text-sm-center">
                                 <input class="btn btn-dark mt-4 ml-0" type="submit" value="Envoyer"/>
                                 </div>
+                              
                             </form>
-                        </div>
-                    </div>
+                          </div>
+                        
 
                 </div>
                 <!--fin row 1-->
-
-                <div class="row no-gutters">
-                    <!--galerie photos-->
-                    <div class="col-md-2">
-                        <img src="./assets/img/Images_paris/paris-2790052_1920.jpg" alt="Image 1" class="img-thumbnail" />
-                    </div>
-
-                    <div class="col-md-2">
-                        <img src="./assets/img/Images_paris/rue-paris-6.jpg" alt="Image 2" class="img-thumbnail" />
-                    </div>
-
-                    <div class="col-md-2">
-                        <img src="./assets/img/Images_paris/paris-2971589_1920.jpg" alt="Image 3" class="img-thumbnail" />
-                    </div>
-
-                    <div class="col-md-2">
-                        <img src="./assets/img/Images_paris/paris-2971589_1920.jpg" alt="Image 3" class="img-thumbnail" />
-                    </div>
-                </div>
-                <!--fin row 2-->
             </div>
-
-
         </div>
         <!--fin class container-->
 
     </section>
+
     <!-- Footer -->
     <footer class="page-footer font-small pt-4">
 
