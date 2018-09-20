@@ -680,11 +680,11 @@ a:focus {
 /*Contact by Maeva*/
 
 
-.img-fluid-article {
-  width: 100%;
-  min-height: 100%;
+/*Sous-article Emilie*/
+.img-fluid-article{ 
+    width: 100%;
+    min-height: 100%;
 }
-
 
 .grande-box {
   overflow: hidden;
@@ -696,27 +696,83 @@ a:focus {
   padding: 5px;
   width: 150px;
 }
-
-
-.titre-sous-article {
-  padding-top: 30px;
+.img-thumbnail{
+  padding: .25rem;
+  background-color: #fff;
+  border: 0px;
+  border-radius: .25rem;
+  max-width: 100%;  
+  height: auto;
 }
 
 
 
-.col-md-12 {
-  margin-bottom: 50px;
-  padding-right: 0px;
-  padding-left: 0px;
+.titre-sous-article{
+   padding-top: 100px;
+   padding-left: 30px;
 }
 
-.espace {
-  padding: 30px;
+.comment-and-form{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.fab {
-  size: 5x;
+
+.bloc-form{
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+.col-md-12{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.fa-facebook-f{
+  color: #343a40;
+}
+
+.fa-twitter{
+  color: #343a40;
+}
+.fa-instagram{
+  color: #343a40;
+}
+
+/*.fa-facebook-f a:hover{
+  color: #343a40;
+
+}
+.fa-twitter a:hover{
+  color: #343a40;
+}
+.fa-instagram a:hover{
+  color: #343a40;
+}*/
+
+.container-fluid, sousArticle{
+  margin-top: 60x;
+}
+
+p{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.bouton-droit{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc-form{
+  width: 100%;
+}
+.social{
+  margin-bottom: 30px;
+  
+}
+
+    /*Sous-article Emilie*/
 
 #sous-article {
   margin-top: 60px;
