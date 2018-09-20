@@ -18,6 +18,13 @@
   font-family: 'Pacifico', cursive !important;
   font-size: 1.2em;
 }
+@media screen and (max-width: 330px) {
+
+  .navbar-brand span {
+    font-family: 'Pacifico', cursive !important;
+    font-size: 1.1em;
+  }
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
